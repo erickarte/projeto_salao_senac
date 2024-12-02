@@ -1,0 +1,14 @@
+/* Adicionando estilos específicos para a página de recuperação de senha */
+.login-box {
+    max-width: 400px; /* Mantendo a largura igual à página de login */
+}
+
+/* Se quiser adicionar um pouco mais de espaço entre os elementos */
+.login-box p {
+    margin-top: 15px; /* Ajusta a margem superior */
+}
+
+/* Se você quiser modificar um pouco a aparência do botão de enviar */
+button[type="submit"] {
+    margin-top: 10px; /* Espaço acima do botão */
+}

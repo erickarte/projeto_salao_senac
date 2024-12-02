@@ -1,0 +1,47 @@
+/* Estilo para a caixa de chat */
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white; /* Fundo branco para o chat */
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    height: 400px; /* Altura fixa para a caixa de chat */
+}
+
+.messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.messages div {
+    margin-bottom: 10px;
+}
+
+.messages .user-message {
+    text-align: right;
+    color: blue; /* Cor das mensagens do usuário */
+}
+
+.messages .support-message {
+    text-align: left;
+    color: green; /* Cor das mensagens do suporte */
+}
+
+#message-input {
+    border: none;
+    padding: 10px;
+    flex: 0 0 40px; /* Altura do input */
+}
+
+#send-button {
+    flex: 0 0 60px; /* Largura do botão */
+    margin-left: 5px; /* Espaço entre o input e o botão */
+}

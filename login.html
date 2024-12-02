@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/teste.css">
+    <title>Página de Login</title>
+</head>
+<body>
+    <div class="background-azul">
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                       <a href="index.html"><img src="img/logo.png" height="60" width="85"></a>
+                    </div>
+                    <ul class="ul">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobrenos.html">Sobre Nós</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="agendamento.html">Agendamentos</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="login.html"><button class="btn-gradiente">Login</button></a></li>
+                    </ul>
+                    <div class="menu-icon">
+                        <img src="img/menu.png" alt="">
+                    </div>
+                </nav>
+            </div>     
+        </header>
+    </div>
+
+    <!-- Área de Login -->
+    <section class="login-background">
+        <div class="login-frame">
+            <div class="login-box">
+                <h2>Login</h2>
+                <form id="login-form">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+
+                    <button type="submit" class="btn-gradiente">Entrar</button>
+                </form>
+                <div class="links">
+                    <a href="recuperar_senha.html">Esqueci minha senha</a>
+                    <br>
+                    <a href="cadastro.html">Cadastrar-se</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/teste.js"></script>
+</body>
+</html>

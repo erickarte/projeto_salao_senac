@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/agenda.css">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <div class="background-azul">
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                       <a href="index.html"><img src="img/logo.png" height="60" width="85"></a>
+                    </div>
+                    <ul class="ul">
+                        <li><a href="index.html">Início</a></li>
+                            <li><a href="sobrenos.html">Sobre Nós</a></li>
+                            <li><a href="servicos.html">Serviços</a></li>
+                            <li><a href="agendamento.html">Agendamentos</a></li>
+                            <li><a href="cursos.html">Cursos</a></li>
+                           <li><a href="login.html"><button class="btn-gradiente">Login</button></a></li>
+                    </ul>
+                    <div class="menu-icon">
+                        <img src="img/menu.png" alt="">
+                    </div>
+                </nav>
+            </div>     
+        </header>
+    </div>
+
+    <!-- Background com imagem e overlay -->
+    <section class="agendamento-background">
+        <div class="overlay"></div>
+        <div class="agendamento-frame">
+            <div class="agendamento-box">
+                <h2>Agende seu Serviço</h2>
+                <form id="agendamento-form">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required>
+
+                    <label for="servico">Serviço:</label>
+                    <select id="servico" name="servico" required>
+                        <option value="" disabled selected>Selecione um serviço</option>
+                        <option value="cabeleleira">Cabeleleira</option>
+                        <option value="manicure">Manicure</option>
+                        <option value="sobrancelha">Sobrancelha</option>
+                        <option value="massagem">Massagem</option>
+                        <option value="esteticista">Esteticista</option>
+                    </select>
+
+                    <div id="subcategoria" class="hidden">
+                        <label for="subcategoria-selecao">Subcategoria:</label>
+                        <select id="subcategoria-selecao" name="subcategoria" required></select>
+                    </div>
+
+                    <div id="preco" class="hidden">
+                        <label for="preco">Preço:</label>
+                        <input type="text" id="preco-valor" name="preco" readonly>
+                    </div>
+
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data" required>
+
+                    <label for="horario">Horário:</label>
+                    <select id="horario" name="horario" required></select>
+
+                    <!-- Botão de agendamento com estilo igual ao botão de login -->
+                    <button type="submit" class="btn-gradiente">Agendar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/agenda.js"></script>
+</body>
+</html>

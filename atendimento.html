@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Atendimento Online</title>
+</head>
+<body>
+
+    <div class="background-azul">
+        <!-- header inicio-->
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                       <a href="index.html"><img src="img/logo.png" height="60" width="85"></a>
+                    </div>
+                    <ul class="ul">
+                        <li><a href="index.html">Início</a></li>
+                            <li><a href="sobrenos.html">Sobre Nós</a></li>
+                            <li><a href="servicos.html">Serviços</a></li>
+                            <li><a href="agendamento.html">Agendamentos</a></li>
+                            <li><a href="cursos.html">Cursos</a></li>
+                           <li><a href="login.html"><button class="btn-gradiente">Login</button></a></li>
+                    </ul>
+                    <div class="menu-icon">
+                        <img src="img/menu.png" alt="">
+                    </div>
+                </nav>
+            </div>     
+        </header>
+        <!-- header fim-->
+        
+        <!-- main-->
+        <main>
+            <div class="container">
+                <h1>Atendimento Online</h1>
+                <div class="chat-container">
+                    <div class="chat-box">
+                        <div class="messages" id="messages"></div>
+                        <input type="text" id="message-input" placeholder="Digite sua mensagem..." required>
+                        <button id="send-button" class="btn-gradiente">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- main fim-->
+    </div>
+    <!-- background azul fim-->
+    
+    <script src="js/chat.js"></script>
+</body>
+</html>

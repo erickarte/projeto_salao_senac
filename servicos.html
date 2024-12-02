@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/servicos.css"> <!-- CSS específico para serviços -->
+    <title>Nossos Serviços</title>
+</head>
+<body>
+
+    <div class="background-azul">
+        <!-- header inicio-->
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                       <a href="index.html"><img src="img/logo.png" height="60" width="85"></a>
+                    </div>
+                    <ul class="ul">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobrenos.html">Sobre Nós</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="agendamento.html">Agendamentos</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="login.html"><button class="btn-gradiente">Login</button></a></li>
+                    </ul>
+                    <div class="menu-icon">
+                        <img src="img/menu.png" alt="Menu">
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!-- background azul fim-->
+
+    <!-- Nossos Serviços -->
+    <section class="servicos">
+        <div class="container">
+            <h1>Nossos Serviços</h1>
+            <div class="categorias">
+                <!-- Categoria: Cabelo e Barba -->
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)"  src="img/cabelo2.jpg" alt="" height="100" width="150">Cabelo e Barba</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3>Corte de Cabelo</h3>
+                            <p>Preço: R$ 50,00</p>
+                            <p>Descrição: Corte moderno com produtos de qualidade.</p>
+                            <p>Tempo: 30 min</p>
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Barba</h3>
+                            <p>Preço: R$ 30,00</p>
+                            <p>Descrição: Estilização de barba com lâmina de segurança.</p>
+                            <p>Tempo: 20 min</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Categoria: Transformação de Formas e Texturas dos Cabelos Femininos -->
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)">Transformação de Formas e Texturas dos Cabelos Femininos</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3>Alisamento Capilar com Hidróxidos (sódio ou guanidina) + Tratamento</h3>
+                            <p>Preço: R$ 280,00 (curto) / R$ 320,00 (médio) / R$ 360,00 (longo) / R$ 400,00 (extralongo)</p>
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Realinhamento Térmico (Tiol de amônio) + Tratamento</h3>
+                            <p>Preço: R$ 300,00 (curto) / R$ 380,00 (médio) / R$ 400,00 (longo) / R$ 420,00 (extralongo)</p>
+                        </div>
+
+                        <div class="subcategoria">
+                            <h3>Realinhamento Térmico (Tiol de amônio) + Tratamento c/finalização</h3>
+                            <p>R$ 300 (curto) / R$ 380 (médio) / R$ 400 (longo) / R$ 420 (extralongo)</p>
+                        </div>
+                        <!-- Adicione as outras subcategorias aqui -->
+                    </div>
+                </div>
+
+                <!-- Categoria: Manicure e Pedicure -->
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)">Manicure e Pedicure</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3>Manicure</h3>
+                            <p>Preço:R$ 28,00</p>
+                            <p>Descrição: Cuidados com as unhas e aplicação de esmalte.</p>
+                            <p>Tempo: 45 min</p>
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Pedicure</h3>
+                            <p>Preço: R$ 28,00</p>
+                            <p>Descrição: Cuidados com os pés e aplicação de esmalte.</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+
+                        <div class="subcategoria">
+                            <h3>Esmaltação </h3>
+                            <p>Preço: R$ 15,00</p>
+                            <p>Descrição: Cortar + Lixar + Esmaltar.</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+
+                        <div class="subcategoria">
+                            <h3>S.O.S para os Pés + Cutilagem</h3>
+                            <p>Preço: R$ 60,00</p>
+                            <p>Descrição: Cuidados intensos com os pés</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+
+                        <div class="subcategoria">
+                            <h3>Francesinha ou Inglesinha </h3>
+                            <p>Preço: R$ 5,00</p>
+                            <p></p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+
+                        <div class="subcategoria">
+                            <h3>Pé e Mão com Cureta |</h3>
+                            <p>Preço: R$ 50,00</p>
+                            <p>Descrição: Cuidados com os pés e mãos.</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+
+                        <div class="subcategoria">
+                            <h3>Pedicure + Manicure</h3>
+                            <p>Preço: R$ 55,00</p>
+                            <p>Descrição: Cuidados com os pés e as mãos e aplicação de esmalte.</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+
+                        <div class="subcategoria">
+                            <h3>Pedicure com Cureta</h3>
+                            <p>Preço: R$ 26,00</p>
+                            <p>Descrição: Cuidados com os pés.</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+
+                        <div class="subcategoria">
+                            <h3>Manicure com Cureta</h3>
+                            <p>Preço: R$ 35,00</p>
+                            <p>Descrição: Cuidados com as mãos.</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adicione outras categorias aqui -->
+
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)">Sobrancelhas</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3>Design de Sobrancelhas</h3>
+                            <p>Preço: R$ 48,00</p>
+                            <p>Tempo: 45 min</p>
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Design de Sobrancelhas + Henna |</h3>
+                            <p>Preço: R$ 60,00</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)">Penteados</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3>Penteado Básico </h3>
+                            <p>Preço: R$ 100,00</p>
+                            
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Trança Nagô ou Torcidos/por lateral</h3>
+                            <p>Preço: R$ 35,00</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)">Maquiagens</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3>Maquiagem</h3>
+                            <p>Preço: R$ 100,00</p>
+                            <p>Tempo: 45 min</p>
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Par de Cílios Postiços </h3>
+                            <p>Preço: R$ 20,00</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)">Massagem e Podologia</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3>Podoprofilaxia Podal</h3>
+                            <p>Preço: R$ 85,00</p>
+                            <p>Tempo: 45 min</p>
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Massoterapia</h3>
+                            <p>Preço: R$ 50,00</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)">Procedimentos Estéticos</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3>Banho de Lua</h3>
+                            <p>Preço: R$ 90,00</p>
+                            <p>Descrição: Cuidados com as unhas e aplicação de esmalte.</p>
+                            <p>Tempo: 45 min</p>
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Drenagem Linfática Facial  </h3>
+                            <p>Preço: R$ 40,00</p>
+                            <p>Descrição: Cuidados com os pés e aplicação de esmalte.</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="categoria">
+                    <h2 class="titulo-categoria" onclick="toggleCategoria(this)">Depilação</h2>
+                    <div class="subcategorias">
+                        <div class="subcategoria">
+                            <h3 class="manicure" onclick="toggleCategoria(this)">Buço com Cera </h3>
+                            <p>Preço: R$ 18,00</p>
+                            <p>Descrição: Cuidados com as unhas e aplicação de esmalte.</p>
+                            <p>Tempo: 45 min</p>
+                        </div>
+                        <div class="subcategoria">
+                            <h3>Axilas</h3>
+                            <p>Preço: R$ 24,00</p>
+                            <p>Descrição: Cuidados com os pés e aplicação de esmalte.</p>
+                            <p>Tempo: 60 min</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Fim Nossos Serviços -->
+    <script src="js/main.js"></script>
+    <script src="js/servicos.js"></script>
+
+</body>
+</html>

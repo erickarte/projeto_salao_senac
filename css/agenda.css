@@ -1,0 +1,105 @@
+/* Ajustes para que o formulário não cubra a navbar */
+
+/* Background com imagem e overlay */
+.agendamento-background {
+    background: url('../img/bg-agendamento.jpg') no-repeat center center/cover;
+    position: relative;
+    min-height: 100vh; /* Ajusta a altura mínima sem cobrir a navbar */
+    padding-top: 120px; /* Deixa espaço para a navbar */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Sombreamento escuro */
+}
+
+/* Frame para o agendamento */
+.agendamento-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+.agendamento-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.agendamento-box h2 {
+    color: #003366;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.agendamento-box label {
+    font-size: 16px;
+    color: #003366;
+}
+
+.agendamento-box input, 
+.agendamento-box select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Estilo do botão laranja com gradiente (usado tanto para Login quanto para Agendar) */
+.btn-gradiente {
+    background: linear-gradient(90deg, #ff6600, #ff8533);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px; /* Removendo o arredondamento */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-gradiente:hover {
+    background: linear-gradient(90deg, #e65c00, #ff8533);
+}
+
+/* Botão laranja de login também será o mesmo de agendamento */
+button[type="submit"].btn-gradiente {
+    background: linear-gradient(90deg, #ff6600, #ff8533);
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 0px; /* Mantendo o formato original, sem bordas arredondadas */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"].btn-gradiente:hover {
+    background: linear-gradient(90deg, #e65c00, #ff8533);
+}
+
+/* Adicionando margens e espaçamentos */
+.agendamento-box form {
+    display: flex;
+    flex-direction: column;
+}

@@ -24,11 +24,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jordyarlego/projeto_salao_senac.git"
+    "url": "git+https://github.com/erickarte/projeto_salao_senac"
   },
   "bugs": {
-    "url": "https://github.com/jordyarlego/projeto_salao_senac/issues"
+    "url": "https://github.com/erickarte/projeto_salao_senac/issues"
   },
-  "homepage": "https://github.com/jordyarlego/projeto_salao_senac#readme",
+  "homepage": "https://github.com/erickarte/projeto_salao_senac#readme",
   "description": ""
 }
